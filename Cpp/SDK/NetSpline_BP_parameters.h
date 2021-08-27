@@ -1,0 +1,54 @@
+﻿#pragma once
+
+// Name: ManEater, Version: 1.0.0
+
+
+/*!!DEFINE!!*/
+
+/*!!HELPER_DEF!!*/
+
+/*!!HELPER_INC!!*/
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x01)
+#endif
+
+namespace CG
+{
+//---------------------------------------------------------------------------
+// Parameters
+//---------------------------------------------------------------------------
+
+// Function NetSpline_BP.NetSpline_BP_C.MakeRandomLocationArray
+struct ANetSpline_BP_C_MakeRandomLocationArray_Params
+{
+};
+
+// Function NetSpline_BP.NetSpline_BP_C.GenerateSeed
+struct ANetSpline_BP_C_GenerateSeed_Params
+{
+};
+
+// Function NetSpline_BP.NetSpline_BP_C.GenerateDetailMesh
+struct ANetSpline_BP_C_GenerateDetailMesh_Params
+{
+	bool                                               GenerateAtPoints_;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+};
+
+// Function NetSpline_BP.NetSpline_BP_C.UpdateMesh
+struct ANetSpline_BP_C_UpdateMesh_Params
+{
+	int                                                MeshIndex;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class USplineMeshComponent*                        CurrentMesh;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+
+// Function NetSpline_BP.NetSpline_BP_C.UserConstructionScript
+struct ANetSpline_BP_C_UserConstructionScript_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
